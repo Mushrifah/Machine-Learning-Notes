@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"266dc2bbc11b19ff","x":-160,"y":-320,"width":240,"height":50,"type":"text","text":"Machine Learning Algos"},
+		{"id":"fbb0a0ab571ffc39","x":-500,"y":-256,"width":140,"height":50,"type":"text","text":"Regression"},
+		{"id":"69422db64b5b1ca5","x":240,"y":-256,"width":160,"height":50,"type":"text","text":"Classification"},
+		{"id":"184eed9bb2236993","x":195,"y":-145,"width":250,"height":145,"type":"text","text":"- Decision tree\n- Random forest\n- Boosting Algos\n- ..."},
+		{"id":"b4f752807fec28a2","x":-567,"y":-145,"width":275,"height":165,"type":"text","text":"- Linear regression\n- Logistic regression\n- Decision tree regressor\n- Random forest regressor\n- .."}
+	],
+	"edges":[
+		{"id":"cb380f6d70ac276a","fromNode":"266dc2bbc11b19ff","fromSide":"left","toNode":"fbb0a0ab571ffc39","toSide":"right"},
+		{"id":"6d1fd94fda22f2c8","fromNode":"fbb0a0ab571ffc39","fromSide":"bottom","toNode":"b4f752807fec28a2","toSide":"top"},
+		{"id":"42379202961781ed","fromNode":"266dc2bbc11b19ff","fromSide":"right","toNode":"69422db64b5b1ca5","toSide":"left"},
+		{"id":"04d842a4e180d172","fromNode":"69422db64b5b1ca5","fromSide":"bottom","toNode":"184eed9bb2236993","toSide":"top"}
+	]
+}
